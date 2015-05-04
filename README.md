@@ -4,7 +4,7 @@ Test for docker automated builds
 # Deployment
 
 - Clone the project
-- `sudo docker build -t "eccwang/static-web"`
+- `sudo docker build -t "eccwang/static-web" .`
 
 # Usage
 
