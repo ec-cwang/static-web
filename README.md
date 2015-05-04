@@ -1,3 +1,3 @@
-# static_web
+# static-web
 Test for docker automated builds
 
