@@ -1,0 +1,4 @@
+nginx:
+    image: eccwang/static-web
+    ports: 
+        - "8080:80"
