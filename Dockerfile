@@ -1,8 +1,11 @@
 # Version: 0.0.1
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update
-RUN apt-get install -y nginx supervisor wget curl
+RUN apt-get update && apt-get install -y \
+	nginx \
+	supervisor \
+	wget \
+	curl
 #RUN echo 'Hi, I am in your container.' > /usr/share/nginx/html/index.html
 EXPOSE 80
 
